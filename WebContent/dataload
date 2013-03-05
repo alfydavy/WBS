@@ -1,0 +1,8 @@
+
+
+insert  into `lang`(`lang_id`,`lang_name`) values (1,'English'),(2,'French'), (3,'Spanish'), (4,'German'), (5,'Italian'), (6,'Portuguese'),(7,'Hindi');
+
+insert  into `author`(`auth_id`,`auth_name`) values (1,'Dan Brown'),(2,'Robert Ludlum'), (3,'Fredrick Forsyth'), (4,'Jiawei Jan'), (5,'Robert Tannenbaum'), (6,'Kelly Strong'),(7,'premchand');
+
+
+insert into 'books'('auth_id','auth_name') values (1,'Dan Brown'), (2,'Robert Ludlum'), (3, 'Fredrick Forsyth'), (4, 'Jiawei Jan'), (5,'Robert Tannenbaum'),(6, 'Kelly Strong'); 
